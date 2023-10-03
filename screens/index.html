@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/banner/banner.css">
+    <link rel="stylesheet" href="../styles/banner/banner-image.css">
+    <link rel="stylesheet" href="../styles/banner/banner-titulo.css">
+    <link rel="stylesheet" href="../styles/banner/banner-texto.css">
+    <link rel="stylesheet" href="../styles/banner/banner-boton.css">
+    <link rel="stylesheet" href="../styles/container/container.css">
+    <link rel="stylesheet" href="../styles/producto/producto.css">
+    <link rel="stylesheet" href="../styles/footer/footer.css">
+
+</head>
+<header class="cabecera">
+    <div class="cabecera-logo">   
+        <img src="/assets/header/Logo.png" alt="control-logo">                    
+    </div>
+    <button class="cabecera-login">Login</button>
+    <img class="cabecera-lupa" src="/assets/header/lupa.png" alt="buscar">        
+</header>
+
+<section class="banner">
+    <img class="banner__image"  src="/assets/banner/banner-image.png" alt="banner-image">
+    <h2 class="banner__titulo">Diciembre promocional</h2>
+    <h3 class="banner__texto">Productos seleccionados con 33% de descuento</h2>
+    <button class="banner__boton"><h4 class="banner__boton__texto">Delanteros</h4></button> 
+</section>
+
+<body>
+    <h2>Jugadores</h2>
+    <button ><h3>Agregar jugador</h3></button>    
+    <section class="seccion-producto" data-product>
+        <!-- <div class="producto">
+            <img src="https://img2.freepng.es/20180513/vzw/kisspng-diego-maradona-argentina-national-football-team-s-5af7d1efc25b23.2574704315261905757961.jpg" alt="maradona">
+            <h1 class="producto-name">Flash</h1>
+            <p class="price">100.00</p>
+            <a class="var-producto" href="../producto.html?id=${id}">Ver producto</a>
+        </div> -->
+                
+    </section>
+
+    <script type="module" src="../controllers/productos-controller.js"></script>
+
+</body>
+
+<footer class="rodapíe">
+    <section>
+        <img src="/assets/header/Logo.png" alt="logo">
+    </section>
+    <section>
+        <ul>
+            <li>Quienes somos</li>
+            <li>Política de privacidad</li>
+            <li>Programa de fidelidad</li>
+            <li>Nuestras tiendas</li>
+            <li>Quiero ser franquiciado</li>
+            <li>Anuncie aqui</li>
+        </ul>
+    </section>
+    <form class="contactenos">
+        <h4>Hable con nosotros</h4>     
+        <input class="nombre__contactenos" type="text" name="Nombre" placeholder="Nombre" required>           
+        <textarea class="mensaje__contactenos" name="mensaje" id="mensaje"  rows="5" placeholder="Escribe tu mensaje" required></textarea>        
+        <input class="boton__contactenos" type="submit" name="botonEnviar" value="Enviar mensaje"/>
+    </form>
+</footer>
+</html>

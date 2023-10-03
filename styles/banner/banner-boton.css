@@ -1,0 +1,19 @@
+.banner__boton{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    height: 51px;
+    width:fit-content;
+
+    color: white;    
+    background-color: blue;
+    cursor: pointer;
+}
+.banner__boton__texto{    
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+    align-items: center;
+    border: 0;    
+}

@@ -1,0 +1,26 @@
+.rodapíe{
+    display: flex;
+    justify-content: space-between;
+}
+.contactenos{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.5;    
+}
+.nombre__contactenos{
+    margin-bottom: 10px;
+}
+.mensaje__contactenos{
+    margin-bottom: 10px;
+    resize: none;
+
+}
+.boton__contactenos{
+    height: 51px;
+    width:fit-content;
+
+    color: white;    
+    background-color: blue;
+    cursor: pointer;
+}
+

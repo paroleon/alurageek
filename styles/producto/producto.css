@@ -1,0 +1,18 @@
+
+.seccion-producto{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    flex-flow: row wrap;
+        
+}
+.producto{ 
+    display: flex;
+    flex-direction:column;  
+    
+    width: 170px;
+    height: 400px;
+
+    margin-right: 1rem;
+    
+    }

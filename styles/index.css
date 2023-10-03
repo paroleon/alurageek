@@ -1,0 +1,29 @@
+
+.cabecera{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;        
+}
+
+.cabecera-logo{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    height: 18px;
+    gap: 10px;    
+}
+.cabecera-titulo{    
+    font-size:x-large;    
+    justify-content: left;
+}
+
+.cabecera-login{
+    width: 133px;
+    height: 40px;
+    padding: 12px, 16px, 12px, 16px;
+    border: 1px;
+    gap: 10px;
+
+}
+
